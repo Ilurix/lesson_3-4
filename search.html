@@ -21,8 +21,8 @@
     <form action="https://tests.fomenko.top/echo/index.php" method="get">
 
         <div>
-            <label for="type body">Тип кузова</label>
-            <select name="type body" id="type body">
+            <label for="type_body">Тип кузова</label>
+            <select name="type_body" id="type_body">
                 <option value="">Выбрать</option>
                 <option value="1">Седан</option>
                 <option value="2">Купе</option>
@@ -40,8 +40,8 @@
         </div>
 
         <div>
-            <label for="mark auto">Марка авто</label>
-            <select name="mark auto" id="mark auto">
+            <label for="mark_auto">Марка авто</label>
+            <select name="mark_auto" id="mark_auto">
                 <option value="">Выбрать</option>
                 <option value="1">BMW</option>
                 <option value="2">Chevrolet</option>
@@ -57,6 +57,89 @@
                 <option value="12">Toyta</option>
                 <option value="13">Volkswagen</option>
             </select>
+        </div>
+
+        <div>
+            <label for="price_1">Цена от</label>
+            <input name="price_1" id="price_1" type="text" placeholder="От">
+            <label for="price_2">До</label>
+            <input name="price_2" id="price_2" type="text" placeholder="До">
+        </div>
+
+        <div>
+            <label for="year_of_prod_1">Год выпуска от</label>
+            <input name="year_of_prod_1" id="year_of_prod_1" type="text" placeholder="От">
+            <label for="year_of_prod_2">До</label>
+            <input name="year_of_prod_2" id="year_of_prod_2" type="text" placeholder="До">
+        </div>
+
+        <div>
+            <label for="condition">Состояние</label>
+            <select name="condition" id="condition">
+                <option value="">Выбрать</option>
+                <option value="1">Битая</option>
+                <option value="2">В Кредите</option>
+                <option value="3">Нерастаможенная</option>
+                <option value="4">Новая</option>
+                <option value="5">После ДТП</option>
+                <option value="6">Не крашена</option>
+                <option value="7">Нужен ремонт двигателя</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="fuel">Тип топлива</label>
+            <select name="fuel" id="fuel">
+                <option value="">Выбрать</option>
+                <option value="1">Бензин</option>
+                <option value="2">Дизель</option>
+                <option value="3">Газ</option>
+                <option value="4">Электро</option>
+                <option value="5">Газ/Бензин</option>
+                <option value="6">Гибрид</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="Transmission">Тип коробки передач</label>
+            <select name="Transmission" id="Transmission">
+                <option value="">Выбрать</option>
+                <option value="1">Механическая</option>
+                <option value="2">Автоматическая</option>
+                <option value="3">Вариатор</option>
+                <option value="4">Адаптивная</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="color">Цвет</label>
+            <select name="color" id="color">
+                <option value="">Выбрать</option>
+                <option value="1">Красный</option>
+                <option value="2">Чорный</option>
+                <option value="3">Серый</option>
+                <option value="4">Зеленый</option>
+                <option value="5">Желтый</option>
+                <option value="6">Синий</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="comfort">Комфорт</label>
+            <select name="comfort" id="comfort">
+                <option value="">Выбрать</option>
+                <option value="1">Кондиционер</option>
+                <option value="2">Парктроник</option>
+                <option value="3">Запуск кнопкой</option>
+                <option value="4">Круиз контроль</option>
+                <option value="5">Обогрев сиденья</option>
+                <option value="6">Подогрев зеркал</option>
+            </select>
+        </div>
+
+        <div>
+            <button type="submit">Поиск</button>
+            <button type="reset">Сбросить</button>
         </div>
 
     </form>
